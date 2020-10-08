@@ -179,7 +179,7 @@ print("Finshed with mock data generation*******************")
 # end time
 end = time.time()
 # total time taken
-print(f"Time taken for execution to generate {_count} of the program is {end - start}")
+print(f"Time taken for execution to generate {_count} of the program is {end - start} second")
 # file1 = open(filename, 'r')
 # print(file1.read())
 # file1.close()
