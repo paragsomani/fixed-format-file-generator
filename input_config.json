@@ -1,6 +1,8 @@
 {
     "number-of-rows": 1000,
-    "name": "volte",
+    "name": "fixed-file-demo",
+    "output-file-absolute-path": "c:/tmp",
+    "per-record-length": 84,
     "properties": [
         {
             "position": 1,
@@ -22,229 +24,53 @@
         },
         {
             "position": 4,
-            "column-name": "Originating Overflow digits",
-            "width": 5,
-            "data-type": "number"
-        },
-        {
-            "position": 5,
-            "column-name": "Originating Number Length",
-            "width": 2,
-            "data-type": "number"
-        },
-        {
-            "position": 6,
-            "column-name": "Terminating Number",
-            "width": 10,
-            "data-type": "number"
-        },
-        {
-            "position": 7,
-            "column-name": "Terminating overflow digits",
-            "width": 6,
-            "data-type": "number"
-        },
-        {
-            "position": 8,
-            "column-name": "Terminating Number length",
-            "width": 2,
-            "data-type": "number"
-        },
-        {
-            "position": 9,
-            "column-name": "Service Feature",
-            "width": 3,
-            "data-type": "number"
-        },
-        {
-            "position": 10,
-            "column-name": "Tos Code",
+            "column-name": "Service Code",
             "width": 3,
             "data-type": "enum",
             "enum-values" : ["823", "777"]
-
         },
         {
-            "position": 11,
+            "position": 5,
             "column-name": "RPC",
             "width": 3,
             "data-type": "number"
         },
         {
-            "position": 12,
-            "column-name": "Sensor ID",
-            "width": 6,
-            "data-type": "number"
-        },
-        {
-            "position": 13,
-            "column-name": "Sensor Type",
-            "width": 3,
-            "data-type": "number"
-        },
-        {
-            "position": 14,
-            "column-name": "ANS IND",
-            "width": 1,
-            "data-type": "number"
-        },
-        {
-            "position": 15,
-            "column-name": "Connect Time hhmmsst",
-            "width": 7,
-            "data-type": "time"
-        },
-        {
-            "position": 16,
-            "column-name": "Elapsed Time mmmmsst",
-            "width": 7,
-            "data-type": "number",
-             "min":10,
-             "max" : 590
-        },
-        {
-            "position": 17,
-            "column-name": "Originating  Access ID",
-            "width": 3,
-            "data-type": "number"
-        },
-        {
-            "position": 18,
-            "column-name": "Terminating Access ID",
-            "width": 3,
-            "data-type": "number"
-        },
-        {
-            "position": 19,
-            "column-name": "Incoming TGRP/OTG",
+            "position": 6,
+            "column-name": "Name",
             "width": 23,
             "data-type": "string"
         },
         {
-            "position": 20,
-            "column-name": "Incoming Trunk-Context",
-            "width": 24,
-            "data-type": "string"
-        },
-        {
-            "position": 21,
-            "column-name": "Outgoing TGRP/OTG",
-            "width": 23,
-            "data-type": "string"
-        },
-        {
-            "position": 22,
-            "column-name": "Outgoing Trunk-Context",
-            "width": 24,
-            "data-type": "string"
-        },
-        {
-            "position": 23,
-            "column-name": "JIP INFO",
-            "width": 6,
-            "data-type": "number"
-        },
-        {
-            "position": 24,
-            "column-name": "LNP-LRN-Terminating",
-            "width": 10,
-            "data-type": "number"
-        },
-        {
-            "position": 25,
-            "column-name": "LNP-Terminating Supporting Info",
-            "width": 3,
-            "data-type": "number"
-        },
-        {
-            "position": 26,
-            "column-name": "AMASLPID",
-            "width": 9,
-            "data-type": "number"
-        },
-        {
-            "position": 27,
-            "column-name": "XRICS Orig. LRN",
-            "width": 10,
-            "data-type": "number"
-        },
-        {
-            "position": 28,
-            "column-name": "XRICS Term. LRN",
-            "width": 10,
-            "data-type": "number"
-        },
-        {
-            "position": 29,
-            "column-name": "Incoming Megabytes",
-            "width": 7,
-            "data-type": "number"
-        },
-        {
-            "position": 30,
-            "column-name": "Outgoing Megabytes",
-            "width": 7,
-            "data-type": "number"
-        },
-        {
-            "position": 31,
+            "position": 7,
             "column-name": "FILLER",
             "width": 5,
             "data-type": "filler"
         },
         {
-            "position": 32,
+            "position": 8,
             "column-name": "Incoming Conversion Rate",
             "width": 6,
             "data-type": "number"
         },
         {
-            "position": 33,
-            "column-name": "Outgoing Conversion Rate",
-            "width": 6,
-            "data-type": "number"
-        },
-        {
-            "position": 34,
-            "column-name": "ABUR VOLTE ERROR CODE",
+            "position": 9,
+            "column-name": "ERROR CODE",
             "width": 3,
             "data-type": "filler"
         },
         {
-            "position": 35,
-            "column-name": "TRN2",
+            "position": 10,
+            "column-name": "TRX",
             "width": 10,
             "data-type": "filler"
         },
         {
-            "position": 36,
-            "column-name": "CODEC IDENTIFIER",
-            "width": 3,
-            "data-type": "number"
-        },
-        {
-            "position": 37,
-            "column-name": "CODEC TYPE",
-            "width": 3,
-            "data-type": "number"
-        },
-        {
-            "position": 38,
-            "column-name": "CODEC START TIME hhmmsst",
+            "position": 11,
+            "column-name": "START TIME hhmmsst",
             "width": 7,
             "data-type": "time"
-        },
-        {
-            "position": 38,
-            "column-name": "CODEC START DATE ymmdd",
-            "width": 5,
-            "data-type": "filler"
-        },
-        {
-            "position": 40,
-            "column-name": "CODEC ELAPSED TIME mmmmmsst",
-            "width": 8,
-            "data-type": "filler"
         }
+        
     ]
 }
