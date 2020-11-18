@@ -11,6 +11,8 @@ With current implementation it supports for following data types:
 5. enum
 6. time in hhmmsst format
 
+It uses "0" as padding  and " "(space) as padding for text/string format.
+
 ## Technologies Used
 Python 3.x
 
