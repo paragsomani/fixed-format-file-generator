@@ -1,75 +1,50 @@
 {
-    "number-of-rows": 1000,
+    "number-of-rows": 10,
     "name": "fixed-file-demo",
-    "output-file-absolute-path": "c:/tmp",
-    "per-record-length": 84,
+    "output-file-absolute-path": "C:\\fixed-format-file-generator",
+    "per-record-length": 95,
     "properties": [
         {
             "position": 1,
-            "column-name": "Recodrd Id",
+            "column-name": "TransactionCode",
             "width": 6,
             "data-type": "number"
         },
         {
             "position": 2,
-            "column-name": "Recording Date",
-            "width": 8,
-            "data-type": "date"
+            "column-name": "FromAccount",
+            "width": 19,
+            "data-type": "number"
         },
         {
             "position": 3,
-            "column-name": "Orginating Number",
-            "width": 10,
+            "column-name": "ToAccount",
+            "width": 19,
             "data-type": "number"
         },
         {
             "position": 4,
-            "column-name": "Service Code",
-            "width": 3,
-            "data-type": "enum",
-            "enum-values" : ["823", "777"]
+            "column-name": "TransactionAmount",
+            "width": 17,
+            "data-type": "number"
         },
         {
             "position": 5,
-            "column-name": "RPC",
-            "width": 3,
-            "data-type": "number"
+            "column-name": "TransactionDate",
+            "width": 8,
+            "data-type": "date"
         },
         {
             "position": 6,
-            "column-name": "Name",
-            "width": 23,
-            "data-type": "string"
+            "column-name": "TransactionTime",
+            "width": 7,
+            "data-type": "time"
         },
         {
             "position": 7,
-            "column-name": "FILLER",
-            "width": 5,
-            "data-type": "filler"
-        },
-        {
-            "position": 8,
-            "column-name": "Incoming Conversion Rate",
-            "width": 6,
+            "column-name": "Reference",
+            "width": 19,
             "data-type": "number"
-        },
-        {
-            "position": 9,
-            "column-name": "ERROR CODE",
-            "width": 3,
-            "data-type": "filler"
-        },
-        {
-            "position": 10,
-            "column-name": "TRX",
-            "width": 10,
-            "data-type": "filler"
-        },
-        {
-            "position": 11,
-            "column-name": "START TIME hhmmsst",
-            "width": 7,
-            "data-type": "time"
         }
         
     ]

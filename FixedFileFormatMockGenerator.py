@@ -86,7 +86,7 @@ def getEnumValue(_prop_col_enum_values):
 start = time.time()
 print("Reading input config file...")
 f_config = open(
-    "C:\\Parag\\d\\git_works\\fixed-file-simulator\\simulator-fixed-file-format-mock-server\\input_config.json", "r")
+    "C:\\fixed-format-file-generator\\input_config.json", "r")
 schema = f_config.read()
 schema = json.loads(schema)
 f_config.close()
@@ -110,7 +110,7 @@ isFirstRun = True
 print("Starting with mock data generation",  end=" ")
 for _ in range(_count):
     print(".", end=" ")
-    # print("faker_string len: "+ str(len(faker_string)))
+    print(" ****** faker_string len: "+ str(len(faker_string)))
     if isFirstRun == True:
         isFirstRun = False
     if len(faker_string) != 0:
@@ -169,7 +169,7 @@ for _ in range(_count):
             faker_string = faker_string + enumValue
 
     _output.append(faker_string)
-    # print("faker String: "+ faker_string)
+    print(" ** faker String: "+ faker_string)
 
 
 # print("final faker String: "+ str(_output))
